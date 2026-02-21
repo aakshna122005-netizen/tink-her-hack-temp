@@ -1,28 +1,19 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "pitchbridgefinale",
   "private": true,
+  "version": "1.0.0",
+  "description": "PitchBridge - AI-powered networking platform for founders, investors, and job seekers.",
+  "author": "Aakshna & Aarcha",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "axios": "^1.13.5",
-    "next": "16.1.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "socket.io-client": "^4.8.3"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.6",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "vite": "^7.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

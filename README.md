@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PitchBridge
 
-## Getting Started
+> **The professional networking platform for the startup ecosystem.**  
+> Connect founders, investors, and job seekers — all in one place.
 
-First, run the development server:
+[![Deploy Status](https://github.com/aakshna122005-netizen/tink-her-hack-temp/actions/workflows/deploy.yml/badge.svg)](https://github.com/aakshna122005-netizen/tink-her-hack-temp/actions/workflows/deploy.yml)
 
+---
+
+## 🌐 Live Demo
+
+**GitHub Pages (Demo Mode):** [https://aakshna122005-netizen.github.io/tink-her-hack-temp/](https://aakshna122005-netizen.github.io/tink-her-hack-temp/)
+
+> In demo mode, the app runs entirely in the browser using mock data. No backend is required.
+>
+> **Demo Login:** Any email / any password (automatically signs you in as a Founder)
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🔐 Auth | Email/password login simulation (Demo Mode) |
+| 💡 Idea Hub | AI-screened startup directory with scores |
+| 💼 Job Board | Filter, search, and apply to startup jobs |
+| 📊 Dashboards | Role-specific views for Founders, Investors & Job Seekers |
+| 💬 Messaging | Real-time chat interface simulation |
+| 🔔 Notifications | Live activity alert system |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|---|---|
+| Frontend | Next.js 15, React, Vanilla CSS |
+| Deploy | GitHub Pages (Static Export) |
+| AI | Gemini API Integration logic |
+
+---
+
+## 🏁 Local Setup
+
+### 1. Clone the repo
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/aakshna122005-netizen/tink-her-hack-temp.git
+cd tink-her-hack-temp
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install and Start
+```bash
+npm install
+npm run dev   # → http://localhost:3000
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 GitHub Pages Deployment
 
-## Learn More
+This project is configured for **Static Export**.
 
-To learn more about Next.js, take a look at the following resources:
+1. Push your code to the `main` branch.
+2. The GitHub Actions workflow in `.github/workflows/deploy.yml` will automatically build and deploy.
+3. Your site will be live at: `https://aakshna122005-netizen.github.io/tink-her-hack-temp/`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👥 Team
 
-## Deploy on Vercel
+- **Aakshna** — Lead Developer
+- **Aarcha** — Frontend Developer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+MIT License
